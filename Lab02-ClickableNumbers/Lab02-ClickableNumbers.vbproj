@@ -96,6 +96,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -114,6 +117,14 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Numbers\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Numbers\Five.bmp" />
+    <Content Include="Numbers\Four.bmp" />
+    <Content Include="Numbers\One.bmp" />
+    <Content Include="Numbers\Three.bmp" />
+    <Content Include="Numbers\Two.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
